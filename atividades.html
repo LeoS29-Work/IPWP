@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salvar o Mundo</title>
+
+     <!-- Site Logo -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/Projeto IPW/Imagens/SiteLogo.png" />
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/5a21bb91bb.js" crossorigin="anonymous"></script>
+    
+    <!-- CSS e JS -->
+    <script src="/Projeto IPW/JS/Base.js" defer></script>
+    <link rel="stylesheet" href="/Projeto IPW/CSS/Style.css" />
+
+  </head>
+  <body>
+
+    <!--- NavBar -->
+    <nav class="NavBar">
+      <div class="brand">
+        <img src="/Projeto IPW/Imagens/SiteLogo.png" class="Nav-Img" alt="Logo" />
+        <h1 class="Nav-Title">Salvar o Mundo</h1>
+      </div>
+      <ul class="Nav-FullDiv">
+        <li class="Nav-Divisions"><a class="Nav-text" href="Index.html">Inicio</a></li>
+        <li class="Nav-Divisions"><a class="Nav-text" href="noticias.html">Noticias</a></li>
+        <li class="Nav-Divisions"><a class="Nav-text" href="forum.html">Forum</a></li>
+        <li class="Nav-Divisions"><a class="Nav-text" href="atividades.html">Atividades</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--div inicial dos nossos projetos-->
+    
+    <div class="ImgProjetos-container">
+        <img class="ImgProjetos" src="/Projeto IPW/Imagens/Atividades.png" alt="IndexIMG" />
+        <div class="TextProjetos-overlay">
+          <h1 class="TextProjetos-titulo">Nossos Projetos</h1>
+          
+        </div>
+      </div>
+
+      <!--Apanhar Lisxo-->
+    
+      <div class="container-project">
+        <div class="card-Project">
+          <i class="fa-solid fa-trash"></i>
+          <h2>Apanhar Lixo</h2>
+          <p>Na operaçao salvar o mundo vamos para as praias, florestas e mesmo na cidade apanhar lixo.<br><br>
+            Se estas interessado a tirar este peso do mundo junta te a nós!</p>
+          <a href="#Voluntaria"><button class="projectbutton1">Quero Voluntariar-me</button></a>
+        </div>
+    
+        <div class="card-Project">
+          <i class="fa-solid fa-tree"></i>
+          <h2>Plantar árvores</h2>
+          <p>Na operaçao Plantar árvores percoremos a cidade ou zonas que sofreram desflorestaçao<br><br>
+              Se estas interessado a ajudar o planeta respirar junta te a nós!</p>
+          <a href="#Voluntaria"><button class="projectbutton2">Quero Voluntariar-me</button></a>
+        </div>
+    
+        <div class="card-Project">
+          <i class="fa-solid fa-recycle"></i>
+          <h2>Conhecimento da Reciclagem</h2>
+          <p>Na operaçao Conhecimento da reciclagem percoremos escolas e estabelecimentos de ensino. </br><br>
+            Para sensibilizar os alunos no topico da reciclagem.</p>
+          <a href="#Voluntaria"><button class="projectbutton3">Quero Voluntariar-me</button></a>
+        </div>
+      </div>
+
+      <!--Formulario de Voluntariado-->
+      <div class="formcont-project">
+        <div class="form-Project">
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="form-Project">
+          <div style="width: 800px; vertical-align:middle; ">
+          <h1 class="TextProjetos-subtitulo" id="Voluntaria"> VOLUNTARIA-TE!! </h1>
+          <div class="Textprojetos-container">
+          <div class="voluntaria-form">
+            <form action="#" method="post">
+              <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="projeto">Projeto:</label>
+                <input type="text" id="projeto" name="projeto" required>
+              </div>
+              <div class="form-group">
+                <label for="observacoes">Observações:</label>
+                <textarea  id="observacoes" name="observacoes" rows="4"> </textarea>
+              </div>
+              <div class="form-group">
+               <br> <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+
+      
+    <!-- Credit div -->
+    <footer class="endcreditsplace">
+      <p>&copy; 2023 Salvar o Mundo. All rights reserved.</p>
+    </footer>
+  
+  </body>

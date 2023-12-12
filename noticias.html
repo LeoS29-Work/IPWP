@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salvar o Mundo</title>
+
+     <!-- Site Logo -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/Projeto IPW/Imagens/SiteLogo.png" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    
+    <!-- CSS e JS -->
+    <script src="/Projeto IPW/JS/Base.js" defer></script>
+    <link rel="stylesheet" href="/Projeto IPW/CSS/Style.css" />
+</head>
+<body>
+
+     <!--- NavBar -->
+     <nav class="NavBar">
+        <div class="brand">
+          <img src="/Projeto IPW/Imagens/SiteLogo.png" class="Nav-Img" alt="Logo" />
+          <h1 class="Nav-Title">Salvar o Mundo</h1>
+        </div>
+        <ul class="Nav-FullDiv">
+          <li class="Nav-Divisions"><a class="Nav-text" href="index.html">Inicio</a></li>
+          <li class="Nav-Divisions"><a class="Nav-text" href="noticias.html">Noticias</a></li>
+          <li class="Nav-Divisions"><a class="Nav-text" href="forum.html">Forum</a></li>
+          <li class="Nav-Divisions"><a class="Nav-text" href="atividades.html">Atividades</a>
+          </li>
+        </ul>
+      </nav>
+  
+  <!--div inicial das Noticias-->
+
+  <div class="ImgProjetos-container">
+    <img class="ImgProjetos" src="/Projeto IPW/Imagens/naturezaBG.jpg" alt="IndexIMG" />
+    <div class="TextProjetos-overlay">
+      <h1 class="TextProjetos-titulo">Notícias</h1>
+      
+    </div>
+  </div>
+<div class="NoticiasMenu">
+
+  <div class="Pesquisa">
+    <h1>Pesquisar:</h1>
+    <input type="text" id="fname" name="fname">
+    <h2>Tags:</h2>
+    <div class="dropdown">
+      <input type="checkbox" id="my-dropdown" value="" name="my-checkbox">
+      <label for="my-dropdown" data-toggle="dropdown">
+      Escolha uma
+      </label>
+      <ul>
+        <li><a href="#">Ambiente</a></li>
+        <li><a href="#">Mar</a></li>
+        <li><a href="#">Animais</a></li>
+        <li><a href="#">Moda</a></li>
+        <li><a href="#">Industria</a></li>
+        <li><a href="#">Plantas</a></li>
+      </ul>
+    </div>
+  </div>
+
+<div class="Container-Cards-Noticias">
+  <div class="blog-card">
+    <div class="meta">
+      <div class="photo" style="background-image: url(../Imagens/nadadoridk.jpg)"></div>
+      <ul class="details">
+        <li class="author"><a href="#">Antonio Bronic/Reuters</a></li>
+        <li class="date">9 de Dezembro de 2023, 21:00</li>
+        <li class="tags">
+          <ul>
+            <li><a href="#">Ambiente</a></li>
+            <li><a href="#">Mar</a></li>
+            <li><a href="#">Animais</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="descricao">
+      <h1>Mexilhão Gigante</h1>
+      <h2>a ser protegido longe do mar. </h2>
+      <p>Um mexilhão gigante que estava à beira da extinção teve um regresso inesperado, com um aumento do seu número populacional nas águas ao largo da Croácia, segundo disse uma equipa de biólogos marinhos.</p>
+      <p class="read-more">
+        <a href="#">Continuar a ler -></a>
+      </p>
+    </div>
+  </div>
+  <div class="blog-card alt">
+    <div class="meta">
+      <div class="photo" style="background-image: url(../Imagens/Fashion.jpg)"></div>
+      <ul class="details">
+        <li class="author"><a href="#">Reuters</a></li>
+        <li class="date">8 de Dezembro de 2023, 8:27</li>
+        <li class="tags">
+          <ul>
+            <li><a href="#">Ambiente</a></li>
+            <li><a href="#">Moda</a></li>
+            <li><a href="#">Industria</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="descricao">
+      <h1>Fast Fashion</h1>
+      <h2>Crise de Carbono</h2>
+      <p>A moda é uma das indústrias mais poluentes do mundo. Responsável por 2% a 8% de todas as emissões de gases com efeito de estufa, suga a água e cria grandes quantidades de poluição e resíduos.</p>
+      <p class="read-more">
+        <a href="#">Continuar a ler -></a>
+      </p>
+    </div>
+  </div>
+  
+  <div class="blog-card">
+    <div class="meta">
+      <div class="photo" style="background-image: url(../Imagens/TecidoCor.jpg)"></div>
+      <ul class="details">
+        <li class="author"><a href="#">Reuters</a></li>
+        <li class="date">7 de Dezembro de 2023, 10:52</li>
+        <li class="tags">
+          <ul>
+            <li><a href="#">Ambiente</a></li>
+            <li><a href="#">Mar</a></li>
+            <li><a href="#">Animais</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="descricao">
+      <h1>Tecido que muda de cor</h1>
+      <h2>Pode ajudar a reduzir o desperdício. </h2>
+      <p>Segundo uma equipa de investigação que desenvolveu um tecido que muda de cor, equipado com uma pequena câmara e que utiliza a inteligência artificial, no futuro, bastarão gestos simples para alterar a cor das roupas.</p>
+      <p class="read-more">
+        <a href="#">Continuar a ler -></a>
+      </p>
+    </div>
+  </div>
+  <div class="blog-card alt">
+    <div class="meta">
+      <div class="photo" style="background-image: url(../Imagens/ArvoreSintra.jpg)"></div>
+      <ul class="details">
+        <li class="author"><a href="#">Margarida Leite Gonçalves</a></li>
+        <li class="date">5 de Dezembro de 2023, 9:05</li>
+        <li class="tags">
+          <ul>
+            <li><a href="#">Ambiente</a></li>
+            <li><a href="#">Plantas</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="descricao">
+      <h1>Árvores do tempo dos dinossauros</h1>
+      <h2>Vivem agora em Sintra</h2>
+      <p>O Parque da Pena, em Sintra, conta agora com uma nova espécie na sua colecção botânica. O parque foi o único no país seleccionado para acolher seis exemplares da árvore Wollemi nobilis</p>
+      <p class="read-more">
+        <a href="#">Continuar a ler -></a>
+      </p>
+    </div>
+  </div>
+
+
+</div>
+
+</div>
+
+ <!-- Credit div -->
+ <footer class="endcreditsplace">
+  <p>&copy; 2023 Salvar o Mundo. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
